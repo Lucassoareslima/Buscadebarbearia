@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1010959366836",
+    "firebase_url": "https://buscador-de-barbe.firebaseio.com",
+    "project_id": "buscador-de-barbe",
+    "storage_bucket": "buscador-de-barbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010959366836:android:d467b5c0669e4ec23775e1",
+        "android_client_info": {
+          "package_name": "com.lucas.buscadebarbearia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010959366836-pn0ja96enlod4qijrg1shi3i37a59rt2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lucas.buscadebarbearia",
+            "certificate_hash": "bb63b805aa3db5bdab1166732a7bc86bafd5ba27"
+          }
+        },
+        {
+          "client_id": "1010959366836-egkoieurchc6g1bgv3u5cr0vl2m4se5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7ar_ej1-0LDmqHb74xVJf5HiMg63osPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010959366836-egkoieurchc6g1bgv3u5cr0vl2m4se5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
