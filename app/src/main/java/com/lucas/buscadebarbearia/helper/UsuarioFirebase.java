@@ -7,12 +7,12 @@ import com.google.firebase.auth.UserProfileChangeRequest;
 public class UsuarioFirebase {
 
     public static String getIdUsuario(){
-        FirebaseAuth autenticacao = ConfiguracaoFirebase.getReferenciaAutenticacao();
+        FirebaseAuth autenticacao = ConfiguracaoFirebase.getFirebaseAutenticacao();
         return autenticacao.getCurrentUser().getUid();
     }
 
     public static FirebaseUser getUsuarioAtual(){
-        FirebaseAuth usuario = ConfiguracaoFirebase.getReferenciaAutenticacao();
+        FirebaseAuth usuario = ConfiguracaoFirebase.getFirebaseAutenticacao();
         return usuario.getCurrentUser();
     }
 

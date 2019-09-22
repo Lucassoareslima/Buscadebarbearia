@@ -25,7 +25,7 @@ public class BarbeariaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_barbearia);
 
 
-        autenticacao = ConfiguracaoFirebase.getReferenciaAutenticacao();
+        autenticacao = ConfiguracaoFirebase.getFirebaseAutenticacao();
 
         //configuração Toolbar
 

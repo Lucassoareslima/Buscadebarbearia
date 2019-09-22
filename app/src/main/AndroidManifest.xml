@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.NovoProdutoBarbeariaActivity"></activity>
-        <activity android:name=".activity.ConfiguracoesBarbeariaActivity" />
+        <activity android:name=".activity.NovoProdutoBarbeariaActivity"
+            android:parentActivityName=".activity.HomeActivity"/>
+        <activity android:name=".activity.ConfiguracoesBarbeariaActivity"
+            android:parentActivityName=".activity.HomeActivity"/>
         <activity android:name=".activity.BarbeariaActivity" />
         <activity android:name=".activity.HomeActivity" />
         <activity android:name=".activity.AutenticacaoActivity" />
